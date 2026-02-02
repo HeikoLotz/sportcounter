@@ -1,0 +1,74 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.settings {
+  margin: 20px 0;
+}
+
+.setting {
+  margin: 10px 0;
+}
+
+.setting label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.setting input {
+  width: 80%;
+}
+
+.timer {
+  margin: 20px 0;
+}
+
+.time-display {
+  font-size: 6em;
+  font-weight: bold;
+}
+
+.reps-display {
+  font-size: 1.5em;
+}
+
+.controls button {
+  background-color: #61dafb;
+  border: none;
+  color: #282c34;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.controls button:hover {
+  background-color: #a3ecff;
+}
