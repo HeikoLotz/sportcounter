@@ -16,7 +16,7 @@ function App() {
       }, 1000);
     } else if (isActive && timer === 0) {
       // Sound abspielen
-      const audio = new Audio('/beep.mp3');
+      const audio = new Audio(process.env.PUBLIC_URL + '/beep.mp3');
       audio.play();
       if (repetitions > 1) {
         setRepetitions(repetitions => repetitions - 1);
