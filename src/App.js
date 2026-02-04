@@ -90,7 +90,7 @@ function App() {
             />
           </div>
           <div className="setting">
-            <label>Pause (s): {pauseDuration}</label>
+            <label>Pause: {pauseDuration}</label>
             <input 
               type="range" 
               min="1" 
