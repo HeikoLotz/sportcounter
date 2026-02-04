@@ -67,7 +67,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Sport-Timer</h1>
+        <h1>tick-tack</h1>
         <div className="settings">
           <div className="setting">
             <label>Dauer: {seconds}</label>
